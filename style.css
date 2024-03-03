@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+* {
+ padding: 0; 
+ margin: 0;
+ box-sizing: border-box;  
+ text-decoration: none;
+ list-style: none;
+
+}
+.body{
+
+font-family: "Quicksand", sans-serif;
+
+
+}
+
+
+.conteiner{
+    
+max-width: 1200px;
+margin: 0 auto;
+
+}
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+
+
+.menu .navbar ul li{
+
+    position: relative;
+    float: left;
+}
+
+
+
+.menu .navbar ul li a{
+    font-size: 18px;
+padding: 20px;
+color: #DEDEDEDE;
+display: block;
+font-weight: bold;
+}
+
+
+.menu .navbar ul li a:hover{
+color: greenyellow;
+}
+
+#menu{
+    display: none;
+
+}
+
+.menu-icono{
+width: 25px;
+}
+
+.menu label{
+ cursor: pointer;
+  display: none;
+}
+
+
+
+h3{
+    margin: 80px 0 0 350px;
+}
+
+
+.navbar{
+
+    background-color: black;
+    width: 1500px;
+}
+
+
+.img{
+    position:relative;
+    left: 100;
+    right: 100;
+    top: 100;
+    width: 1400px;
+    height: 500px;
+}
+
+.martin{
+
+
+    position: relative;
+    left: 100;
+    right: 100;
+    top: 100;
+    width: 1500px;
+    height: 500px; }
+
+    
+
+.danielek{
+
+    position: relative;
+    left: 100;
+    right: 100;
+    top: 100;
+    width: 1500px;
+    height: 600px; 
+    
+}
+
+.gato{
+
+    position:relative ;
+    
+    
+    left: 100;
+    right: 100;
+    top: 100;
+    width: 1000px;
+    height: 500px;
+}
+.p{
+    text-align: center;}
+
+    
+   .redes{
+    background-color: gray;
+    width: 1500px;
+    
+   }
+
+
+.ig{
+   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+      
+.twitter{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.face{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.fondo{
+
+    background-color: #CAF0F8;
+}
+
+    
+    
